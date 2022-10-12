@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="../index.css" />
+    <script
+      src="https://kit.fontawesome.com/2cc123ac4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- BANNER BLOG -->
+
+    <section class="sub-banner">
+      <nav class="navbar">
+        <a href=""><img src="../images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Un!Blog</h1>
+    </section>
+
+    <!-- BLOG PAGE CONTENT -->
+
+    <section class="blog-content">
+      <div class="row blog-row">
+        <div class="blog-left">
+          <img src="../images/certificate.jpg" alt="certificate" />
+          <h2>Our Certificate & Online Programmes</h2>
+          <p class="blog-left-p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            distinctio corporis ad? Doloribus blanditiis eos quas fugit repellat
+            ut odio! Sapiente quibusdam a at non quam! Saepe omnis similique
+            possimus!
+          </p>
+          <p class="blog-left-p">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+            itaque vel repudiandae, assumenda deleniti porro eos dolor. Dolore
+            temporibus, similique, quae eveniet eaque nam vero praesentium iusto
+            recusandae rerum eligendi unde magni numquam odio tenetur tempora
+            neque harum excepturi deserunt sequi. Quia reprehenderit mollitia
+            assumenda, officiis neque unde? Possimus, eius.
+          </p>
+          <p class="blog-left-p">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+            velit, consectetur blanditiis tempore vitae qui odio aliquam
+            corrupti laborum voluptates?
+          </p>
+          <p class="blog-left-p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            illum dolores exercitationem modi soluta, at autem nemo ipsum
+            suscipit asperiores necessitatibus aliquam voluptates debitis? Non
+            natus dolores dolore explicabo quos fuga laudantium totam eum hic,
+            quam libero possimus dolorum tempora?
+          </p>
+          <p class="blog-left-p">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur voluptatibus architecto, quo libero, corrupti hic
+            ratione nemo optio reiciendis placeat quae inventore ad, aliquid
+            repudiandae quaerat. Dolorem ab ad hic.
+          </p>
+          <p class="blog-left-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+            numquam cumque tenetur possimus obcaecati veritatis repellendus
+            sequi, impedit pariatur in eligendi illo, accusantium neque odio.
+          </p>
+          <div class="comment-box">
+            <h3>Leave A Comment</h3>
+            <form class="form" id="blog-form">
+              <input
+                id="user-name"
+                type="text"
+                placeholder="Enter Name"
+                required
+              />
+              <input
+                id="user-email"
+                type="email"
+                placeholder="Email Address"
+                required
+              />
+              <textarea
+                id="user-comment"
+                placeholder="What's on your mind?"
+                rows="3"
+                required
+              ></textarea>
+              <button id="post-comment" class="hero-btn red-btn" type="submit">
+                Post Comment
+              </button>
+            </form>
+          </div>
+          <button class="hero-btn red-btn borderless" id="see-comments-btn">
+            See Comments
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div id="comment-section" class="comment-section">
+            <!-- <div class="single-comment">
+              <div class="comment-img">
+                <img src="../images/user1.jpg" alt="" />
+              </div>
+              <div class="comment-text">
+                <h6 class="commenter-name">John Bosko</h6>
+                <p class="comment-email">email@email.com</p>
+                <p class="comment-post">
+                  I love this school it gives me joy bla bla Lorem ipsum, dolor
+                  sit amet consectetur adipisicing elit. Numquam, suscipit.
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Engineering and Science</span>
+            <span>52</span>
+          </div>
+          <div>
+            <span>Law</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>Medicine</span>
+            <span>45</span>
+          </div>
+          <div>
+            <span>Sports</span>
+            <span>60</span>
+          </div>
+          <div>
+            <span>Literature and English</span>
+            <span>12</span>
+          </div>
+          <div>
+            <span>Arts and Language</span>
+            <span>16</span>
+          </div>
+          <div>
+            <span>IT and Computer</span>
+            <span>57</span>
+          </div>
+          <div>
+            <span>Chemistry</span>
+            <span>38</span>
+          </div>
+          <div>
+            <span>Religious studies</span>
+            <span>24</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, ipsam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam,
+        libero voluptate architecto praesentium quo.
+      </p>
+      <div class="icon-col">
+        <a href=""><i class="fab fa-facebook fa-fw"></i></a>
+        <a href=""><i class="fab fa-twitter fa-fw"></i></a>
+        <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+        <a href=""><i class="fab fa-linkedin fa-fw"></i></a>
+      </div>
+    </footer>
+
+    <script src="../jsFiles/blog.js"></script>
+  </body>
+</html>

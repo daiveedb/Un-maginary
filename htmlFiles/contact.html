@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../index.css" />
+    <script
+      src="https://kit.fontawesome.com/2cc123ac4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- BANNER BLOG -->
+
+    <section class="sub-banner">
+      <nav class="navbar">
+        <a href=""><img src="../images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- MAP -->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.046772788788!2d3.3876560144495094!3d6.5157643250616974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d24c04d3e75%3A0x7347f1a6be13e004!2sUniversity%20of%20Lagos!5e0!3m2!1sen!2sng!4v1655561853028!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- info -->
+    <section class="info">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>
+              <h5>XYZ road ABC estate, Balal</h5>
+              <p>Lagos, Nigeria</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone fa-fw"></i>
+            <span>
+              <h5>+234 708 608 2215</h5>
+              <p>Weekdays only</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope fa-fw"></i>
+            <span>
+              <h5>bajomodavid18@gmail.com</h5>
+              <p>Send us an email</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-col">
+          <form class="form" action="../form-handler.php" method="post">
+            <input type="text" placeholder="Enter Name" required name="name" />
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              name="email"
+            />
+            <input type="text" placeholder="Subject" required name="subject" />
+            <textarea
+              name="message"
+              placeholder="What's on your mind?"
+              rows="6"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, ipsam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam,
+        libero voluptate architecto praesentium quo.
+      </p>
+      <div class="icon-col">
+        <a href=""><i class="fab fa-facebook fa-fw"></i></a>
+        <a href=""><i class="fab fa-twitter fa-fw"></i></a>
+        <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+        <a href=""><i class="fab fa-linkedin fa-fw"></i></a>
+      </div>
+    </footer>
+
+    <script src="../jsFiles/index.js"></script>
+  </body>
+</html>
